@@ -1,0 +1,33 @@
+.h1{
+    color: blue; font-size: xx-large;
+}
+.h2{
+    color: yellow; font-variant: small-caps;
+}
+.p1{
+    font-style: oblique;background-color: aqua;
+}
+#heading1{
+    color: blueviolet;font-variant: small-caps;
+}
+#p2{
+    background-color: aqua; font-style: oblique;
+}
+#h3{
+    background-color: red; font-variant-caps: all-small-caps; color: white;
+}
+.p3{
+    background-color: aqua; 
+}
+#mahi{
+    background-color: yellow;
+}
+#mahii{
+    font-weight: bold ; color: darkgreen;
+}
+#pic{
+   ;background-image: url(143547-ytqerqtaan-1593339762.jpg); color: gray;
+}
+#cool{
+    font: 3rem sans-serif; color: silver; back); background-image: -moz-radial-gradient(circle, #);
+}

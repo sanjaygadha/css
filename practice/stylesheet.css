@@ -1,0 +1,10 @@
+.header{
+    color: aqua; background-image: -moz-linear-gradient(black, white);background-position: center; background-image: url(ms-dhoni-csk-captain-2023-2.jpg);height: 500px; font-weight: 700; 
+}
+.text-presentation{
+    font-variant-emoji: text;
+}
+.emoji-presentation{
+    font-variant-emoji: emoji;
+}
+

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .glassmorphism {
+  background: rgba(255, 255, 255, 0.1); /* Light, transparent background */
+  backdrop-filter: invert(10px); /* Apply blur to background */
+  border-radius: 15px; /* Rounded corners */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Light border */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft box shadow */
+  padding: 20px; /* Some padding */
+}
+.container {
+  width: 50%;
+  height: 200px;
+  border: 1px solid #ccc;
+  overflow: auto;
+  
+}
+
+.responsive-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Adjust this value to see the different behaviors */
+}
+
+.container{
+    background-color: ;
+}
+
+a {
+  border: 1px solid;
+  border-radius: 3px;
+  display: inline-block;
+  margin: 10px;
+  padding: 5px;
+  
+}
+
+a:focus {
+  outline: 4px dotted #e73;
+  outline-offset: 4px;
+  background: #ffa;
+  
+}
+
+    </style>
+</head>
+<body>
+    <!--glass morphism box showing generator-->
+    <div class="glassmorphism">
+        <h2>Glassmorphism Effect</h2>
+        <p>This is a simple glassmorphism card.</p>
+      </div>
+      <div class="glassmorphism">
+        <h2>Glassmorphism Effect</h2>
+        <p>This is a simple glassmorphism card.</p>
+      </div>
+      <!--object fit property--property sets how the content of a replaced element, such as an <img> or <video>, should be resized to fit its container.
+    object-fit: contain;
+    object-fit: cover;
+    object-fit: fill;
+    object-fit: none;
+    object-fit: scale-down;
+-->
+      <div class="container">
+        <img src="../day3/1906889.jpg" alt="Example Image" class="responsive-img">
+       <img src="../day3/1906889.jpg" alt="Example Image" class="responsive-img">
+       <h1>1</h1>
+       <h1>1</h1>
+      </div>
+      <!--outline
+The outline CSS shorthand property sets most of the outline properties in a single declaration.
+outline-style: solid;dotted;groove;inset
+outline-width: outline-width: 12px; outline-width: thin;  outline-width: medium; outline-width: thick;
+outline-color: red;
+-->
+<a href="#">This link has a special focus style.</a>
+
+</body>
+</html>

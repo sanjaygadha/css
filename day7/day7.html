@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+        .navbar{
+            background-color: white;
+            margin-top: -33px;
+            display: flex;
+            left: -2px;
+            width: 100%;
+            height:55px;
+            justify-content: space-between;
+            box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+            position:fixed;
+            z-index: 1;
+        }
+        .navbar-right{
+            display: flex;
+        }
+        .item{
+            padding: 10px 20px;
+            color: black;
+            margin: 7px;
+            letter-spacing: 4px;
+            font-size:larger;
+            font-family:4px 'Times New Roman', Times, serif;
+        }
+        .item:hover{
+            background-color: yellow;
+        }
+        .item::after{
+            color: blue;
+        }
+        .item::before{
+            color: black;
+        }
+        .item:active{
+            color: red;
+        }
+       .div2{
+            background-image: url(https://www.w3schools.com/w3images/hamburger.jpg);
+            height: 800px;
+            width: 100%;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+       }
+       .h2{
+        font-size: xx-large;
+        position: relative;
+        letter-spacing: 4px;
+        left: 2%;
+        top: 90%;
+        font-family: "Playfair Display";
+        letter-spacing: 5px;
+        color: rgb(83, 80, 80);
+       
+       
+}
+
+    .content{
+        display: flex;
+        justify-content: space-around;
+        font-size: 18px;
+       
+
+        
+
+    }
+    .matter{
+        max-height: max-content;
+        width: 510px;
+        line-height: 1.5;
+        margin-left: -28%;
+
+    }
+    .pic1{
+        letter-spacing: 5px;
+        font-size: 20px;
+        font-family:'Times New Roman', Times, serif;
+        
+
+    }
+    
+    .content2{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row-reverse;
+
+    }
+    .matter2{
+        margin-top: 20px;
+        margin-right:-30%;
+       
+    }
+    .menuhead{
+        text-align: center;
+        letter-spacing: 4px;
+        font-size: xx-large;
+    }
+    .q{
+        letter-spacing: 4px;
+        font-size: larger;
+    }
+    .a{
+        color: rgb(80, 76, 76);
+    }
+    .contact{
+        width: 80%;
+        font-size: 16px;
+        margin-left: 10%;
+        line-height: 1.5;
+        
+    }
+    .details{
+      width: 70%;
+      font-size: 16px;
+      padding:10px;
+      border: none;
+      margin-left: 10%;
+      margin-right: 10%;
+     }
+     .anchor:hover{
+        background-color: yellow;
+
+     }
+     
+     
+
+    </style>
+</head>
+<body>
+   <div class="navbar">
+    <div class="item">Gourmet au catering</div>
+    <div class="navbar-right">
+    <div class="item"><a href="#about">About</a></div>
+    <div class="item"><a href="#menu">Menu</a></div>
+    <div class="item" ><a href="#contact">Contact</a></div></div></div>
+
+    <div class="div2"><p class="h2">Le Catering</p>
+    </div>
+</div><br><br><br>
+<div class="content" >
+    <div class="pic1"><img src="https://www.w3schools.com/w3images/tablesetting2.jpg" height="600px"></div>
+    <div class="matter" id="about">
+    <center><div class="pic1"><h1>About Catering</h1></div><br>
+    <div class="pic1">Tradition since 1889</div></center><br>
+    <div>The Catering was founded in blabla by Mr. Smith in lorem ipsum
+        dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use seasonal ingredients.<br><br>
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </div></div>
+</div>
+<br><br>
+<hr style="margin-left: 8%; margin-right: 8%;"><br><br>
+<!--menu card-->
+<div class="content2"id="menu">
+    <div class="pic2"><img src="https://www.w3schools.com/w3images/tablesetting.jpg" ></div>
+    <div class="matter2">
+        <div class="menuhead">Our Menu</div><br>
+        <div>
+            <p class="q">Bread Basket</p>
+            <p class="a">Assortment of fresh baked fruit breads and muffins 5.50 </p><br>
+            <p class="q">Honey Almond Granola with Fruits</p>
+            <p class="a">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p><br>
+            <p class="q">Belgian Waffle</p>
+            <p class="a">Vanilla flavored batter with malted flour 7.50</p><br>
+            <p class="q">Scrambled eggs</p>
+            <p class="a">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br>
+            <p class="q">Blueberry Pancakes</p>
+            <p class="a">With syrup, butter and lots of berries 8.50</p>
+        </div>
+    </div>
+</div><br><br><hr style="margin-right: 8%;margin-left: 8%;">
+<div class="contact">
+
+<div style="font-size: xx-large; letter-spacing: 4px;" id="contact">Contact</div><br><br>
+      <div>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy 
+      the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</div>
+      <div style="color: cadetblue;font-size: larger;"><h4>Catering Service, 42nd Living St, 43043 New York, NY</h4></div>
+      <div>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</div>
+    </div>
+    <form action="email catering@catering.com" method="get">
+    <hr style="margin-left: 8%; margin-right: 8%;"> 
+    <input type="text" placeholder="Name" class="details">
+
+    <hr style="margin-left: 8%; margin-right: 8%;"> 
+    <input type="number" placeholder="How many people" class="details">
+
+    <hr style="margin-left: 8%; margin-right: 8%;"> 
+    <input type="datetime-local"  class="details">
+
+    <hr style="margin-left: 8%; margin-right: 8%;"> 
+    <input type="text" placeholder="Message/special requirements" class="details">
+    <hr style="margin-left: 8%; margin-right: 8%;"><br>
+    <div style="text-align:center;">
+    <input type="submit" value="Message" ></div><br><br>
+    <div style="text-align: center;">
+        <a href="1234567890"><img src="https://tse4.mm.bing.net/th?id=OIP.6GPA_j_kI2Ia8s4ao3Ha8wHaHv&pid=Api&P=0&h=180" width="50px"><br>Call us</a>
+    </div><br>
+    <div style="text-align: center; font-size: large;" >Powered by <a href="https://www.w3schools.com/w3css/default.asp" ><span class="anchor" color:blue;">W3.css</span></a></div>
+    
+</form>
+
+</div>
+
+</body>
+</html>
